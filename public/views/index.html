@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Krazee Kalculator</title>
+    <script src="vendor/jquery.min.js" charset="utf-8"></script>
+    <script src="js/client.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h1>Krazee Kalculator</h1>
+    <form id="calculator">
+      <input type="number" name="x" value="">
+      <input type="number" name="y" value="">
+
+      <label for "add">Add</label>
+      <input type="radio" name="operation" value="add" id="add">
+
+      <label for "subtract">Subtract</label>
+      <input type="radio" name="operation" value="subtract" id="subtract">
+
+      <label for "multiply">Multiply</label>
+      <input type="radio" name="operation" value="multiply" id="multiply">
+
+      <label for "divide">Divide</label>
+      <input type="radio" name="operation" value="divide" id="divide">
+
+      <input type="submit" value="Kalculate!">
+
+    </form>
+    <button type="button" id="clear" name="button">Clear</button>
+
+    <h1>Not-So-Krazee Answer:<span id="display"></span></h1>
+  </body>
+</html>
